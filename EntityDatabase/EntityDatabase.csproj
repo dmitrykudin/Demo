@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5603A16F-D52D-4BF4-B175-D4D95396B6FC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EntityDatabase</RootNamespace>
+    <AssemblyName>EntityDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AprioriAlgorithm\Apriori.cs" />
+    <Compile Include="AprioriAlgorithm\Rule.cs" />
+    <Compile Include="Classification\HowToClassify.cs" />
+    <Compile Include="CustomersContext.cs" />
+    <Compile Include="DataLayer.MSSQL\AssociationRuleRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ClassTagRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\CustomerRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ProductClassRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ProductItemRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ProductRatingRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ProductRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\PurchaseRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\RuleConditionRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\RuleResultRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\ShopRepository.cs" />
+    <Compile Include="DataLayer.MSSQL\TagRepository.cs" />
+    <Compile Include="DataLayer\IAssociationRuleRepository.cs" />
+    <Compile Include="DataLayer\IClassTagRepository.cs" />
+    <Compile Include="DataLayer\ICustomerRepository.cs" />
+    <Compile Include="DataLayer\IProductClassRepository.cs" />
+    <Compile Include="DataLayer\IProductItemRepository.cs" />
+    <Compile Include="DataLayer\IProductRatingRepository.cs" />
+    <Compile Include="DataLayer\IProductRepository.cs" />
+    <Compile Include="DataLayer\IPurchaseRepository.cs" />
+    <Compile Include="DataLayer\IRuleConditionRepository.cs" />
+    <Compile Include="DataLayer\IRuleResultRepository.cs" />
+    <Compile Include="DataLayer\IShopRepository.cs" />
+    <Compile Include="DataLayer\ITagRepository.cs" />
+    <Compile Include="DataLogic\RequestHelper.cs" />
+    <Compile Include="EntityModels\AssociationRule.cs" />
+    <Compile Include="EntityModels\ClassTag.cs" />
+    <Compile Include="EntityModels\Customer.cs" />
+    <Compile Include="EntityModels\Product.cs" />
+    <Compile Include="EntityModels\ProductClass.cs" />
+    <Compile Include="EntityModels\ProductItem.cs" />
+    <Compile Include="EntityModels\ProductRating.cs" />
+    <Compile Include="EntityModels\Purchase.cs" />
+    <Compile Include="EntityModels\RuleCondition.cs" />
+    <Compile Include="EntityModels\RuleResult.cs" />
+    <Compile Include="EntityModels\Shop.cs" />
+    <Compile Include="EntityModels\Tag.cs" />
+    <Compile Include="Migrations\201805091625449_InitialCreate.cs" />
+    <Compile Include="Migrations\201805091625449_InitialCreate.Designer.cs">
+      <DependentUpon>201805091625449_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805091748361_Shop_ChangeInnType.cs" />
+    <Compile Include="Migrations\201805091748361_Shop_ChangeInnType.Designer.cs">
+      <DependentUpon>201805091748361_Shop_ChangeInnType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805282159277_WithAssociationRules.cs" />
+    <Compile Include="Migrations\201805282159277_WithAssociationRules.Designer.cs">
+      <DependentUpon>201805282159277_WithAssociationRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301150337_DecimalValuesFix.cs" />
+    <Compile Include="Migrations\201805301150337_DecimalValuesFix.Designer.cs">
+      <DependentUpon>201805301150337_DecimalValuesFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Classification\ProductsCatalog.json" />
+    <None Include="Classification\temp.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805091625449_InitialCreate.resx">
+      <DependentUpon>201805091625449_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805091748361_Shop_ChangeInnType.resx">
+      <DependentUpon>201805091748361_Shop_ChangeInnType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805282159277_WithAssociationRules.resx">
+      <DependentUpon>201805282159277_WithAssociationRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301150337_DecimalValuesFix.resx">
+      <DependentUpon>201805301150337_DecimalValuesFix.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Similarity\WordsMatching.csproj">
+      <Project>{CFFEA5F4-2374-4336-956B-F6EDB9E2FBF1}</Project>
+      <Name>WordsMatching</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

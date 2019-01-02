@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EntityDatabase.AprioriAlgorithm.Apriori" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAACAGEABAAAgAAAAAAgAAAAkIAAAAAIA=</HashCode>
+      <FileName>AprioriAlgorithm\Apriori.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.AprioriAlgorithm.Rule" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEEAIACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AprioriAlgorithm\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.Classification.HowToClassify" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAUAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>Classification\HowToClassify.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.CustomersContext" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAgACAAAAAEEAABQQAEAAgAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CustomersContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.Program" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.AssociationRuleRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAIAAAAAAAAAAAAAAAAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\AssociationRuleRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ClassTagRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\ClassTagRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.CustomerRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAABAAAAAAAAAAAAAAQAAAAAAABAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ProductClassRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEFCAAACAAAAABAAAAAAAAAAAAAAIAAAAAQAAAAAAQA=</HashCode>
+      <FileName>DataLayer.MSSQL\ProductClassRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ProductItemRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\ProductItemRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ProductRatingRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAACAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\ProductRatingRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ProductRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAACAAAAAAIAAAAAAAAAACAAAAAAAAAAAAQQA=</HashCode>
+      <FileName>DataLayer.MSSQL\ProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.PurchaseRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAEAEAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\PurchaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.RuleConditionRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\RuleConditionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.RuleResultRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\RuleResultRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.ShopRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer.MSSQL\ShopRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLayer.MSSQL.TagRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>DataLayer.MSSQL\TagRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.DataLogic.RequestHelper" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLogic\RequestHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.AssociationRule" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgACAAAAAgAAAAAAAAIAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\AssociationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.ClassTag" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>EntityModels\ClassTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.Customer" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASCAEAAACAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>EntityModels\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.Product" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAggACAAAAAAAAAAQQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.ProductClass" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAQAAAAgAIQAAgAAAAAAAAQ=</HashCode>
+      <FileName>EntityModels\ProductClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.ProductItem" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQCAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQ=</HashCode>
+      <FileName>EntityModels\ProductItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.ProductRating" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\ProductRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.Purchase" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAECAAAAAAAAAAAAAQAAAAQAAACAABABAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\Purchase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.RuleCondition" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EntityModels\RuleCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.RuleConditionComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\RuleCondition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.RuleResult" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EntityModels\RuleResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.RuleResultComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityModels\RuleResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.Shop" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAACA=</HashCode>
+      <FileName>EntityModels\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.EntityModels.Tag" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAACAA=</HashCode>
+      <FileName>EntityModels\Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityDatabase.Migrations.InitialCreate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201805091625449_InitialCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.Migrations.Shop_ChangeInnType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201805091748361_Shop_ChangeInnType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.Migrations.WithAssociationRules" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201805282159277_WithAssociationRules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.Migrations.DecimalValuesFix" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201805301150337_DecimalValuesFix.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EntityDatabase.Migrations.Configuration" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EntityDatabase.DataLayer.IAssociationRuleRepository">
+    <Position X="1.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAIAAAAAAAAAAAAAAAAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>DataLayer\IAssociationRuleRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IClassTagRepository">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IClassTagRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.ICustomerRepository">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAABAAAAAAAAAAAAAAQAAAAAAABAAA=</HashCode>
+      <FileName>DataLayer\ICustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IProductClassRepository">
+    <Position X="7.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEFCAAACAAAAABAAAAAAAAAAAAAAIAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IProductClassRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IProductItemRepository">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IProductItemRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IProductRatingRepository">
+    <Position X="11.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAACAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IProductRatingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IProductRepository">
+    <Position X="13.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAACAAAAAAIAAAAAAAAAACAAAAAAAAAAAAQQA=</HashCode>
+      <FileName>DataLayer\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IPurchaseRepository">
+    <Position X="1.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAEAEAAAAA=</HashCode>
+      <FileName>DataLayer\IPurchaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IRuleConditionRepository">
+    <Position X="3.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IRuleConditionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IRuleResultRepository">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IRuleResultRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.IShopRepository">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\IShopRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EntityDatabase.DataLayer.ITagRepository">
+    <Position X="9.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>DataLayer\ITagRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
